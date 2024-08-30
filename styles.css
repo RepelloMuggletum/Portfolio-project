@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.logo {
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+}
+
+nav {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #424242;
+}
+
+ul {
+    display: flex;
+    height: 85px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+    height: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: #6d6d6d;
+}
+
+li a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.promotion {
+    height: 200px;
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.promotion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: opacity(70%) contrast(60%);
+}
+
+.promotion-content {
+    position: absolute;
+    top: 55%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: white;
+    width: 90%;
+}
+
+.promotion-text {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.highlight {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.promotion-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #48CFCB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.promotion-button:hover {
+    background-color: #3FB8B5;
+}
+
+.info-sections {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #229799;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.info-title {
+    width: 90%;
+    margin: 10px 0;
+    color: white;
+}
+
+.info-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-description {
+    width: 90%;
+    margin: 10px 0 50px;
+    color: white;
+    font-size: 14px;
+}
+
+.info-link {
+    width: 90%;
+    max-width: 250px;
+    color: white;
+    font-size: 16px;
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    background-color: #48CFCB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.info-link:hover {
+    background-color: #3FB8B5;
+}
+
+footer {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: flex-start;
+}
+
+.logo-footer {
+    display: block;
+    width: 20px;
+    object-fit: cover;
+    margin: 10px auto 10px 10px;
+}
+
+footer p {
+    width: 50%;
+    margin: 10px 10px 0 0;
+    border-top: 1px solid #000000;
+    text-align: right;
+}
